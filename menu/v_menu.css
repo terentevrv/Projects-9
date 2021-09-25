@@ -1,0 +1,25 @@
+#v_menu{
+	list-style-type:none;
+	padding:0px;
+	width:200px;
+}
+#v_menu li a{
+	text-decoration:none;
+	font-family:Verdana;
+	font-size:80%;
+	color:#080;
+	background:#cca;
+	height:30px;
+	display:block; /* inline | inline-block | none */
+	margin-bottom:1px;
+	padding-left:10px;
+	line-height:30px;
+}
+
+#v_menu li a:visited{
+	color:#060;
+}
+#v_menu li a:hover{
+	color:#cca;
+	background:#080;
+}

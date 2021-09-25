@@ -1,0 +1,42 @@
+#dropmenu,
+#dropmenu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#dropmenu > li{
+	float:left;
+	/* display:inline-block; */
+}
+
+#dropmenu a{
+	display:block;
+	padding:5px 15px;
+	background:#ccf;
+	margin:0 1px 1px 0;
+}
+
+#content{
+	background:#ffc;
+	min-height:400px;
+	clear:both;
+}
+
+#dropmenu ul{
+	position:absolute;
+	display:none;
+}
+#dropmenu > li:hover > ul{
+	display:block;
+}
+
+#dropmenu li.current a{
+	background:#cca;
+}
+
+
+
+
+
+
